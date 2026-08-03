@@ -1,3 +1,4 @@
+import android.graphics.Path
 package com.aibeautypro.report
 
 import android.content.Context
@@ -71,7 +72,9 @@ object PdfGenerator {
             color = Color.WHITE
         })
         canvas.save()
-        canvas.clipRoundRect(imageRect, 18f, 18f)
+        canvas.clipPath(Path().apply {
+    addRoundRect(imageRect, 18f, 18f, Path.Direction.CW)
+})
         canvas.drawBitmap(bitmap, null, imageRect, Paint(Paint.ANTI_ALIAS_FLAG or Paint.FILTER_BITMAP_FLAG))
         canvas.restore()
 
