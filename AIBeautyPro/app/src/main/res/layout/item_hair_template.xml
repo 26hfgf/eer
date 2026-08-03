@@ -10,7 +10,8 @@
     app:cardBackgroundColor="@color/surface_card"
     app:cardCornerRadius="18dp"
     app:cardElevation="1dp"
-    app:checkable="true"
+    android:clickable="true"
+    android:focusable="true"
     app:checkedIcon="@null"
     app:strokeColor="@color/purple_primary"
     app:strokeWidth="0dp">
