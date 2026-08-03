@@ -10,8 +10,9 @@
     app:cardBackgroundColor="@color/surface_card"
     app:cardCornerRadius="18dp"
     app:cardElevation="1dp"
-    android:clickable="true"
-    android:focusable="true"
+    <com.google.android.material.card.MaterialCardView
+    ...
+    app:cardClickable="true">
     app:checkedIcon="@null"
     app:strokeColor="@color/purple_primary"
     app:strokeWidth="0dp">
