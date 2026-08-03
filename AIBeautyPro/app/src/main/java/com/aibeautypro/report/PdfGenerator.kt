@@ -1,6 +1,6 @@
-import android.graphics.Path
 package com.aibeautypro.report
 
+import android.graphics.Path
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.Canvas
