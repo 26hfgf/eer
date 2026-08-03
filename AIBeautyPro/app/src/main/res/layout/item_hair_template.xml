@@ -9,13 +9,12 @@
     android:focusable="true"
     app:cardBackgroundColor="@color/surface_card"
     app:cardCornerRadius="18dp"
-    app:cardElevation="1dp"
-    <com.google.android.material.card.MaterialCardView
-    ...
-    app:cardClickable="true">
-    app:checkedIcon="@null"
-    app:strokeColor="@color/purple_primary"
-    app:strokeWidth="0dp">
+app:cardElevation="1dp"
+app:cardClickable="true"
+app:checkedIcon="@null"
+app:strokeColor="@color/purple_primary"
+app:strokeWidth="0dp">
+
 
     <LinearLayout
         android:layout_width="match_parent"
