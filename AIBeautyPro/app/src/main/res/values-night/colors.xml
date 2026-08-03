@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_primary">#B99CFF</color>
+    <color name="purple_dark">#D1C0FF</color>
+    <color name="pink_accent">#FF9BC3</color>
+    <color name="surface_light">#17121D</color>
+    <color name="surface_card">#241D2B</color>
+    <color name="text_primary">#F5ECF7</color>
+    <color name="text_secondary">#CFC2D4</color>
+    <color name="divider">#403646</color>
+    <color name="success">#6ED6A0</color>
+    <color name="danger">#FF8A80</color>
+    <color name="camera_overlay">#66000000</color>
+</resources>
